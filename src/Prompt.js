@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
   Modal,
   Platform,
@@ -8,6 +8,8 @@ import {
   View
 } from 'react-native';
 import styles from './styles';
+
+const PropTypes = require('prop-types');
 
 export default class Prompt extends Component {
   static propTypes = {
